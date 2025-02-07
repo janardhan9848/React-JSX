@@ -174,15 +174,27 @@
 //     );
 //   }
 // }
+// import React from 'react';
+// import FunctionalComponent from './components/FunctionalComponents';
+
+// function App() {
+//     return (
+//         <div className="App">
+//             <FunctionalComponent clgName="MRU" city="Hyderabad" apply={true}>
+//                 <p>This is a child element passed as props.</p>
+//             </FunctionalComponent>
+//         </div>
+//     );
+// }
+
+// export default App;
 import React from 'react';
 import FunctionalComponent from './components/FunctionalComponents';
 
 function App() {
     return (
-        <div className="App">
-            <FunctionalComponent clgName="MRU" city="Hyderabad" apply={true}>
-                <p>This is a child element passed as props.</p>
-            </FunctionalComponent>
+        <div>
+            <FunctionalComponent />
         </div>
     );
 }

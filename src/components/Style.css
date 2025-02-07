@@ -8,7 +8,7 @@
     font-family: 'Times New Roman', Times, serif
 } */
 
-.heading {
+/* .heading {
     color: aqua;
     background-color: blue;
 }
@@ -16,4 +16,49 @@
 .font-style {
     font-size: 100px;
     font-family: 'Times New Roman', Times, serif;
+} */
+/* Default styles */
+.heading {
+    color: black;
+    background-color: lightgray;
+    font-size: 32px;
+    text-align: center;
+    padding: 10px;
+}
+
+.subtext {
+    color: darkblue;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Alternate styles */
+.alternate-heading {
+    color: white;
+    background-color: darkblue;
+    font-size: 32px;
+    text-align: center;
+    padding: 10px;
+}
+
+.alternate-subtext {
+    color: red;
+    font-size: 24px;
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: deepskyblue;
+    color: white;
 }
