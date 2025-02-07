@@ -1,56 +1,56 @@
 
 
-// // // function App() {
-// // //   let ele = React.createElement("div" , {classNmae:"App"} ,
-// // //     React.createElement("hi" ,null,"Header")
-// // //   )
-// // //   let username = "dinesh";
-// // //   retu
-// // //   return (
+// function App() {
+//   let ele = React.createElement("div" , {classNmae:"App"} ,
+//     React.createElement("hi" ,null,"Header")
+//   )
+//   let username = "dinesh";
+//   retu
+//   return (
    
-// // //   );
-// // // }
+//   );
+// }
 
-// // // export default App
-// // // // !component composition
+// export default App
+// // !component composition
 
-// // // import React from 'react'
-// // // import Navbar from './components/Navbar'
-// // // import Main from './components/Main'
-// // // import Sidebar1 from './compnents/Sidebar1'
-// // // import Sidebar2 from './components/Sidebar2'
-// // // import Footer from './components/Footer'
-// // // const App = () => {
-// // //   return (
-// // //     <div className='app'>
-// // //       <Navbar/>
-// // //         <Main/>
-// // //         <div className='sidebar'>
-// // //           <Sidebar1/>
-// // //           <Sidebar2/>
-// // //         </div>
-// // //         <Footer/>
-// // //     </div>
-// // //   )
-// // // }
-// // // export default App
-// // // props 
-// // import React, { Component } from 'reacct'
-// // import CBCPropEx from './propsex/CBCPropEx'
+// import React from 'react'
+// import Navbar from './components/Navbar'
+// import Main from './components/Main'
+// import Sidebar1 from './compnents/Sidebar1'
+// import Sidebar2 from './components/Sidebar2'
+// import Footer from './components/Footer'
+// const App = () => {
+//   return (
+//     <div className='app'>
+//       <Navbar/>
+//         <Main/>
+//         <div className='sidebar'>
+//           <Sidebar1/>
+//           <Sidebar2/>
+//         </div>
+//         <Footer/>
+//     </div>
+//   )
+// }
+// export default App
+// props 
+// import React, { Component } from 'reacct'
+// import CBCPropEx from './propsex/CBCPropEx'
  
-// // export default class App extends Component {
-// //   render () {
-// //     return (
-// //       <CBDPropEx
-// //       username="dinesh"
-// //       age={21}
-// //       hobbies={["playing" , "reading books" ,"stock"]}
-// //       address={[city:"mancherial, area:ccc naspur"]}
-// //       sendFun={function(){alert("hi i am janardhan")}}
-// //       />
-// //     )
-// //   }
-// // }
+// export default class App extends Component {
+//   render () {
+//     return (
+//       <CBDPropEx
+//       username="dinesh"
+//       age={21}
+//       hobbies={["playing" , "reading books" ,"stock"]}
+//       address={[city:"mancherial, area:ccc naspur"]}
+//       sendFun={function(){alert("hi i am janardhan")}}
+//       />
+//     )
+//   }
+// }
 // <FBCPropEx
 // user="janardhan"
 // isMarried={true}
@@ -160,17 +160,31 @@
 // }
 
 
-import React, { Component } from 'react';
-import CBCStateEX from './stateexample/CBCState'; // Adjust path as per your folder structure
-// import CBCStateEX from './stateexample/FBCStateEX';
+// import React, { Component } from 'react';
+// import CBCStateEX from './stateexample/CBCState'; // Adjust path as per your folder structure
+// // import CBCStateEX from './stateexample/FBCStateEX';
 
-export default class App extends Component {
-  render() {
+// export default class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <h1>State and Props Example</h1>
+//         <CBCStateEX />
+//       </div>
+//     );
+//   }
+// }
+import React from 'react';
+import FunctionalComponent from './components/FunctionalComponents';
+
+function App() {
     return (
-      <div>
-        <h1>State and Props Example</h1>
-        <CBCStateEX />
-      </div>
+        <div className="App">
+            <FunctionalComponent clgName="MRU" city="Hyderabad" apply={true}>
+                <p>This is a child element passed as props.</p>
+            </FunctionalComponent>
+        </div>
     );
-  }
 }
+
+export default App;
