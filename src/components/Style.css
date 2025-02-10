@@ -18,7 +18,7 @@
     font-family: 'Times New Roman', Times, serif;
 } */
 /* Default styles */
-.heading {
+/* .heading {
     color: black;
     background-color: lightgray;
     font-size: 32px;
@@ -33,7 +33,7 @@
 }
 
 /* Alternate styles */
-.alternate-heading {
+/* .alternate-heading {
     color: white;
     background-color: darkblue;
     font-size: 32px;
@@ -61,4 +61,61 @@ button {
 button:hover {
     background-color: deepskyblue;
     color: white;
-}
+} */ */
+/* Style.css */
+.app-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-input {
+    margin: 20px 0;
+  }
+  
+  .weather-input input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    margin-right: 10px;
+  }
+  
+  .weather-input button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #0288d1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .weather-input button:hover {
+    background-color: #026aa7;
+  }
+  
+  .weather-card {
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .weather-card h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .weather-card p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
