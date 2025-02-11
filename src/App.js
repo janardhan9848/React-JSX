@@ -253,13 +253,13 @@
 // }
 // import React from 'react';
 import React from 'react';
-import UseEffect from './UseEffectEx';
+import RefExample from './hooksexamples/RefExample';
 
 const App = () => {
   return (
     <div>
       <h1>React Application</h1>
-      <UseEffect />
+      <RefExample/>
     </div>
   );
 };
