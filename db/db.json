@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "name": "janardhan",
+      "email": "janardhan@gmail.com",
+      "phone": "+1-123-456-7890",
+      "id": "1a1c"
+    },
+    {
+      "name": "aravind",
+      "email": "aravind@gmail.com",
+      "phone": "+1-987-654-3210",
+      "id": "ede6"
+    },
+    {
+      "name": "Dinesh",
+      "email": "dinesh@gmail.com",
+      "phone": "+442551131",
+      "id": "59c2"
+    },
+    {
+      "SI.NO": 4,
+      "name": "Mohan",
+      "mail": "mohan@example.com",
+      "phone": "98437262722",
+      "id": "628b",
+      "email": "mohan23@gmail.com"
+    },
+    {
+      "name": "Krishna",
+      "email": "krishan@gmail.com",
+      "phone": "+919875566",
+      "id": "61b0"
+    },
+    {
+      "id": "10e6",
+      "name": "mru",
+      "mail": "praveenreddy1234@gmail.com",
+      "phone": "8463946919",
+      "email": "mru@gmail.com"
+    },
+    {
+      "id": "b886",
+      "name": "patro",
+      "email": "patro@gmail.com",
+      "phone": "2336554477"
+    },
+    {
+      "id": "0021",
+      "name": "Aditiya",
+      "email": "Aditiya@gmail.com",
+      "phone": "5588996455"
+    }
+  ]
+}
